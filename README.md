@@ -2,7 +2,7 @@
 This project enables you to control a dragon in AR on your phone
 
 **Here's the code for the _PrefabCreator_ file:**
-
+```csharp
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -30,10 +30,10 @@ public class PrefabCreator : MonoBehaviour
         }
     }
 }
-
+```
 
 **Here's the code for the _DragonController_ file:**
-
+```csharp
 using UnityEngine;
 
 public class DragonController : MonoBehaviour
